@@ -1,0 +1,9 @@
+utils\varsG.class
+properties\pageObjects\LoginPage.class
+properties\pageObjects\HomePage.class
+properties\pageObjects\CartPage.class
+driver\DriverConfig.class
+properties\pageObjects\CheckoutPage.class
+properties\pageObjects\ProductPage.class
+properties\pageObjects\Base.class
+properties\pageObjects\CheckoutOverviewPage.class
