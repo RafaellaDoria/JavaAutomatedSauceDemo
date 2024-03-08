@@ -13,4 +13,4 @@ Feature: Saucedemo - Product Page Tests
     Then The Shopping_cart_badge should count 1
 
 
-    Then The Remove button should be displayed
+    Then The Remove button is displayed

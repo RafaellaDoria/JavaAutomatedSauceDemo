@@ -1,7 +1,0 @@
-runner\Runner.class
-stepsDefinitions\productScreenSteps.class
-stepsDefinitions\cartScreenSteps.class
-stepsDefinitions\loginSteps.class
-stepsDefinitions\checkOutOverviewSteps.class
-stepsDefinitions\checkoutSteps.class
-stepsDefinitions\base\Hooks.class
