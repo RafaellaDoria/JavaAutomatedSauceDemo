@@ -13,4 +13,4 @@ Feature: Saucedemo - Cart Page Tests
     Then The Shopping_cart_badge should count 2
 
     And I click in Cart Icon
-    Then The Remove button should be displayed
+    Then The Remove button is displayed

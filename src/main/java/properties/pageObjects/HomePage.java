@@ -17,6 +17,9 @@ public class HomePage extends Base {
         WebElement SwagLabsLbl;
         public @FindBy(xpath = "//button[@id='react-burger-menu-btn']")
         WebElement burgerBtn;
+
+        public @FindBy(id = "about_sidebar_link")
+        WebElement aboutMenu;
         public @FindBy(id = "logout_sidebar_link")
         WebElement logoutBtn;
         public @FindBy(xpath = "//a[@id='item_4_title_link']/div")
@@ -34,6 +37,10 @@ public class HomePage extends Base {
         }
         public void clickOn_BugerMenu(){
             waitForWebElementAndClick(burgerBtn);
+        }
+
+        public void GoToAboutPage(){
+            waitForWebElementAndClick(aboutMenu);
         }
         public void clickOn_LogOutBtn(){
             waitForWebElementAndClick(logoutBtn);

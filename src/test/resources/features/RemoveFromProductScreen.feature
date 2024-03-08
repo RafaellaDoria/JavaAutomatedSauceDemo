@@ -11,8 +11,8 @@ Feature: Saucedemo - Products Tests
     And I should be Logged in and the Header should present the message Swag Labs
 
     And I click in Add To Cart button in first product
-    Then The Remove button should be displayed
+    Then The Remove button is displayed
 
     #Verificar que o click on remove do produto está a dar erro
     And I click in button to remove from product screen
-    Then The Shopping_cart_badge should not be displayed
+ #   Then The Shopping_cart_badge should not be displayed

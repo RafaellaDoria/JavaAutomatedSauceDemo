@@ -1,14 +1,12 @@
 package runner;
 
-import com.google.common.reflect.ClassPath;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
-import org.testng.*;
 
 
 // Defines the Cucumber options for running the tests
-@CucumberOptions(features = {"classpath:features"}, glue = {"stepsDefinitions"},
+@CucumberOptions(features = {"classpath:features"}, glue = {"properties/stepsDefinitions"},
         tags = "@tests",
         monochrome = false, dryRun = false,
         plugin = {"pretty", "html:target/cucumber-reports.html", "json:target/cucumber.json"})
